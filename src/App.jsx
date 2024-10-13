@@ -1,12 +1,22 @@
 import { useState } from "react";
 import "./App.css";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import Footer from "./components/Footer";
+import AppoinmentPage from "./pages/AppoinmentPage";
 
 function App() {
   return (
     <>
-      <div className="flex justify-center">
-        <p>Start</p>
-      </div>
+      <Navbar />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/appoinment" element={<AppoinmentPage />}></Route>
+        </Routes>
+      </BrowserRouter>
+      <Footer />
     </>
   );
 }

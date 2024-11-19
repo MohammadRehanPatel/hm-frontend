@@ -25,19 +25,19 @@ const Navbar = () => {
         <div className="text-gray-500 order-3 w-full md:w-auto md:order-2">
           <ul className="flex font-semibold justify-between">
             <li className="md:px-4 md:py-2 text-indigo-500">
-              <a href="#">Dashboard</a>
+              <a href="/"> Home</a>
             </li>
             <li className="md:px-4 md:py-2 hover:text-indigo-400">
-              <a href="#">Search</a>
+              <a href="CreateHealth"> Create Health ID</a>
             </li>
             <li className="md:px-4 md:py-2 hover:text-indigo-400">
-              <a href="#">Explore</a>
+              <a href="LiveStatus"> Live Status</a>
             </li>
             <li className="md:px-4 md:py-2 hover:text-indigo-400">
-              <a href="#">About</a>
+              <a href="about">About</a>
             </li>
             <li className="md:px-4 md:py-2 hover:text-indigo-400">
-              <a href="#">Contact</a>
+              <a href="contact">Contact</a>
             </li>
           </ul>
         </div>

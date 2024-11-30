@@ -28,7 +28,7 @@ const Navbar = () => {
               <a href="/"> Home</a>
             </li>
             <li className="md:px-4 md:py-2 hover:text-indigo-400">
-              <a href="CreateHealth"> Create Health ID</a>
+              <a href="dashboard"> Dashboard </a>
             </li>
             <li className="md:px-4 md:py-2 hover:text-indigo-400">
               <a href="LiveStatus"> Live Status</a>

@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import LoginPage from "../pages/LoginPage";
 
 const Navbar = () => {
   return (
@@ -34,6 +36,9 @@ const Navbar = () => {
               <a href="LiveStatus"> Live Status</a>
             </li>
             <li className="md:px-4 md:py-2 hover:text-indigo-400">
+              <a href="queue"> Queue Management </a>
+            </li>
+            <li className="md:px-4 md:py-2 hover:text-indigo-400">
               <a href="about">About</a>
             </li>
             <li className="md:px-4 md:py-2 hover:text-indigo-400">
@@ -42,7 +47,7 @@ const Navbar = () => {
           </ul>
         </div>
         {/* Login button */}
-        <div className="order-2 md:order-3">
+        {/* <div className="order-2 md:order-3">
           <button className="px-4 py-2 bg-indigo-500 hover:bg-indigo-600 text-gray-50 rounded-xl flex items-center gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -56,9 +61,9 @@ const Navbar = () => {
                 clipRule="evenodd"
               />
             </svg>
-            <span>Login</span>
+            <a href="login">Login</a>
           </button>
-        </div>
+        </div> */}
       </div>
     </nav>
   );

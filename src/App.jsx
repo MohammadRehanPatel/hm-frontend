@@ -8,6 +8,7 @@ import About from "./components/About";
 import Opd from "./components/opd";
 import Dashboard from "./pages/Dashboard";
 import QueueManagement from "./pages/QueueManagement";
+import LoginPage from "./pages/LoginPage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/appoinment" element={<AppoinmentPage />}></Route>
+          <Route path="/login" element={<LoginPage />}></Route>
           <Route path="/opd" element={<Opd />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/dashboard" element={<Dashboard />}></Route>
